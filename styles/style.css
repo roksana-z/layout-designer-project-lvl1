@@ -73,3 +73,48 @@ main {
     background-color: #fff;
     color: #000;
 }
+.box-2 {
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.advantages {
+    width: 1000px;
+    justify-content: center;
+}
+.advantages div {
+    margin-right: 15px;
+    line-height: 1.7;
+}
+
+.background {
+    background-color: #f7f7f7;
+    width: 100%;
+    justify-content: center;
+}
+.about {
+    height: 100%;
+    margin: 40px;
+    width: 1000px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content {
+    width: 500px;
+    line-height: 1.7;
+    padding-top: 0px;
+}
+.content h2 {
+    margin-top: 0px;
+}
+.about img {
+    height: 220px;
+    margin-top: 6px;
+    margin-left: 80px;
+}
+
+.places-for-rest img {
+   margin-left: 0px;
+}
