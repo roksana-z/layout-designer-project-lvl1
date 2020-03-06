@@ -36,5 +36,40 @@ header {
     text-decoration: none;
     color: black;
 }
+main {
+    width: 100%;
+}
+.box-1 {
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-image: url(/images/banner.png);
+    background-size: 100%;
+    background-position: center;
+    flex-direction: column;
+    color: white;
+}
 
-
+.box-1 img {
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+}
+.box-1 h1 {
+    margin-bottom: 0px;
+}
+.box-1 span {
+    margin-bottom: 20px;
+}
+.box-1 button {
+    width: 140px;
+    height: 40px;
+    color: white; /*цвет текста*/
+    background: rgba(0, 0, 0, 0); /* прозрачность фона*/
+    border-radius: 8px; /*закругление рамки*/
+    border: 2px solid white; /*цвет рамки*/
+}
+.box-1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
