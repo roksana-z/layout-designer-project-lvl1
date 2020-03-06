@@ -1,0 +1,40 @@
+
+.d-flex {
+    display: flex;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+header {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.nav-wrap {
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 15px 20px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+
