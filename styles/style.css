@@ -6,7 +6,9 @@
 .h-60 {
     height: 60px;
 }
-
+.mt-10 {
+    margin-top: 10px;
+}
 header {
     flex-direction: row;
     align-items: center;
@@ -117,4 +119,62 @@ main {
 
 .places-for-rest img {
    margin-left: 0px;
+}
+.form {
+    background-color: #f7f7f7;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.form fieldset {
+    border: 2px solid #01dfad;
+    width: 400px;
+}
+.form legend {
+    color: #01dfad;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-box-1 {
+    align-items: center;
+    justify-content: space-between;
+}
+.form-box-1  select{
+    border-radius: 8px;
+    height: 30px;
+    width: 120px;
+    margin-right: 25px;
+    background-color: white;
+    border: 1px solid #e4e4e4;
+}
+.form-box-2 {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-box-2 input {
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    height: 25px;
+
+}
+.contacts {
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.form button {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    color: #01dfad; /*цвет текста*/
+    background: rgba(0, 0, 0, 0); /* прозрачность фона*/
+    border-radius: 8px; /*закругление рамки*/
+    border: 2px solid #01dfad; /*цвет рамки*/
+    margin-right: 286px;
+    margin-bottom: 55px;
 }

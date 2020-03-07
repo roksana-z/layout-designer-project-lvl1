@@ -67,6 +67,38 @@
                      <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </div>
             </div>
+            <div class="form d-flex">
+                <h2>Оставьте заявку сегодня!</h2>
+                <form action="mailto:elleygj@gmail.com" enctype="text/plain">
+                <fieldset class="d-flex">
+                    <legend>Параметры квартиры</legend>
+                    <div class="form-box-1 d-flex">
+                    <p>Колличество комнат:</p>
+                    <select name="number-of-rooms" id="rooms">
+                        <option value="1">1</option>
+                        <option value="2">2</option> 
+                        <option value="3">3</option>
+                    </select>
+                   </div>
+                   <div class="form-box-1 d-flex">
+                     <p>Отделка:</p>
+                     <select name="decoration" id="decor">
+                         <option value="Yes">Да</option>
+                         <option value="No">Нет</option>
+                    </select>
+                    </div>
+                </fieldset>
+                <fieldset class="d-flex mt-10">
+                    <legend>Контактная информация</legend>
+                    <div class="form-box-2 d-flex">
+                        <div class="contacts d-flex"><p>Имя:</p><input type="text"></div> 
+                        <div class="contacts d-flex"><p>Телефон:</p><input type="text"></div> 
+                        <div class="contacts d-flex"><p>E-mail:</p><input type="text"></div> 
+                    </div>
+                </fieldset>
+                </form>
+                 <button>Отправить</button>
+            </div>
         </div>
      </main>
      <footer>contacts</footer>
