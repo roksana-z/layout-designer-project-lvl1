@@ -11,7 +11,7 @@
 </head>
 <body>
      <header class="d-flex">
-         <div class="logo d-flex h-60">
+         <div class="logo d-flex h-60 ml-10">
              <img src="/images/logo.svg" alt="logo" class="h-60">
              <span>Лунное море</span>
          </div>
@@ -30,17 +30,17 @@
         <div class="box-2 d-flex">
             <div class="advantages d-flex">
                 <div class="adv-1">
-                    <h2>Уникальный вид</h2>
+                    <span class="big-letters">Уникальный вид</span>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли
                         наслаждаться метеоритными потоками.</p>
                 </div>
                 <div class="adv-2">
-                    <h2>Инфраструктура</h2>
+                    <span class="big-letters">Инфраструктура</span>
                     <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка
                          находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
                 <div class="adv-3">
-                    <h2>Близость к Москве</h2>
+                    <span class="big-letters">Близость к Москве</span>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
                          России.</p>
                 </div>
@@ -48,7 +48,7 @@
             <div class="background d-flex">
                 <div class="d-flex about">
                     <div class="content">
-                        <h2>О ЖК «Лунное море»</h2>
+                        <span class="big-letters">О ЖК «Лунное море»</span>
                         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь
                          с мегаполисом не теряется – современные скоростные трассы позволяют без труда 
                          добираться до столицы и обратно.</p>
@@ -60,7 +60,7 @@
             <div class="d-flex places-for-rest about">
                 <img src="/images/moon-2.jpg" alt="moon-2">
                 <div class="content content-2">
-                    <h2>Места для отдыха</h2>
+                    <span class="big-letters">Места для отдыха</span>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем
                          распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров 
                          от вашей квартиры.</p>
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <div class="form d-flex">
-                <h2>Оставьте заявку сегодня!</h2>
+                <span class="big-letters">Оставьте заявку сегодня!</span>
                 <form action="mailto:elleygj@gmail.com" enctype="text/plain">
                 <fieldset class="d-flex">
                     <legend>Параметры квартиры</legend>
@@ -80,16 +80,16 @@
                         <option value="3">3</option>
                     </select>
                    </div>
-                   <div class="form-box-1 d-flex">
+                   <div class="form-box-1 d-flex pb-15">
                      <p>Отделка:</p>
                      <select name="decoration" id="decor">
-                         <option value="Yes">Да</option>
-                         <option value="No">Нет</option>
+                         <option value="Yes">C отделкой</option>
+                         <option value="No">Без отделки</option>
                     </select>
                     </div>
                 </fieldset>
-                <fieldset class="d-flex mt-10">
-                    <legend>Контактная информация</legend>
+                <fieldset class="d-flex mt-10 pb-15">
+                    <legend d-flex>Контактная информация</legend>
                     <div class="form-box-2 d-flex">
                         <div class="contacts d-flex"><p>Имя:</p><input type="text"></div> 
                         <div class="contacts d-flex"><p>Телефон:</p><input type="text"></div> 
@@ -101,6 +101,27 @@
             </div>
         </div>
      </main>
-     <footer>contacts</footer>
+     <footer class="d-flex">
+         <div class="column d-flex">
+            <div class="logo d-flex">
+            <img src="/images/logo.svg" alt="logo" class="h-60">
+             <span>Лунное море</span></div>
+             <span class="symbol">&copy;2032</span>
+         </div>
+         <div class="column d-flex">
+             <h3>Проектная документация</h3>
+              <ul class="mt-ml d-flex">
+                  <li><a href="#">Скачать</a></li>
+                  <li><a href="#">Посмотреть на сайте</a></li>
+              </ul>
+         </div>
+         <div class="column d-flex">
+              <h3>О застройщике</h3>
+              <ul class="mt-ml d-flex">
+                  <li><a href="#">Отзывы</a></li>
+                  <li><a href="#">Сайт компании</a></li>
+              </ul>
+         </div>
+     </footer>
 </body>
 </html>
