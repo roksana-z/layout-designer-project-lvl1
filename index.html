@@ -16,21 +16,22 @@
              <span>Лунное море</span>
          </div>
          <div class="d-flex nav-wrap h-60">
-                 <p class="nav-item"><a href="#">Преимущества</a></p>
-                 <p class="nav-item"><a href="#"> О ЖК</a></p>
-                 <p class="nav-item"><a href="#">Места для отдыха</a></p>
+                 <p class="nav-item"><a href="#link-for-advantages">Преимущества</a></p>
+                 <p class="nav-item"><a href="#link-for-description"> О ЖК</a></p>
+                 <p class="nav-item"><a href="#link-for-places-for-rest">Места для отдыха</a></p>
+         </div>
      </header>
      <main>
-        <div class="box-1 d-flex">
+        <div class="book-container-1 d-flex">
             <img src="/images/logo.svg" alt="logo">
             <h1>ЖК  "Лунное море"</h1>
             <span>Mесто, откуда не хочется улетать</span>
-            <button>Забронировать</button>
+            <a href="#form-data" class="d-flex">Забронировать</a>
         </div>
-        <div class="box-2 d-flex">
+        <div class="advantages-container d-flex">
             <div class="advantages d-flex">
-                <div class="adv-1">
-                    <span class="big-letters">Уникальный вид</span>
+                <div class="adv-1 ">
+                    <span class="big-letters" id="link-for-advantages">Уникальный вид</span>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли
                         наслаждаться метеоритными потоками.</p>
                 </div>
@@ -43,12 +44,13 @@
                     <span class="big-letters">Близость к Москве</span>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
                          России.</p>
-                </div>
+                 </div>
             </div>
-            <div class="background d-flex">
+        </div>
+            <div class="grey-background d-flex">
                 <div class="d-flex about">
                     <div class="content">
-                        <span class="big-letters">О ЖК «Лунное море»</span>
+                        <span class="big-letters" id="link-for-description">О ЖК «Лунное море»</span>
                         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь
                          с мегаполисом не теряется – современные скоростные трассы позволяют без труда 
                          добираться до столицы и обратно.</p>
@@ -57,19 +59,21 @@
                     <img src="/images/moon-1.jpg" alt="moon-1">
                 </div>
             </div>
-            <div class="d-flex places-for-rest about">
+            <div class="places-for-rest-container d-flex">
+            <div class="d-flex  about">
                 <img src="/images/moon-2.jpg" alt="moon-2">
-                <div class="content content-2">
-                    <span class="big-letters">Места для отдыха</span>
+                <div class="content">
+                    <span class="big-letters" id="link-for-places-for-rest">Места для отдыха</span>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем
                          распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров 
                          от вашей квартиры.</p>
                      <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </div>
             </div>
-            <div class="form d-flex">
-                <span class="big-letters">Оставьте заявку сегодня!</span>
-                <form action="mailto:elleygj@gmail.com" enctype="text/plain">
+        </div>
+            <div class="form grey-background d-flex">
+                <span class="big-letters" id="form-data">Оставьте заявку сегодня!</span>
+                <form action="#">
                 <fieldset class="d-flex">
                     <legend>Параметры квартиры</legend>
                     <div class="form-box-1 d-flex">
@@ -89,7 +93,7 @@
                     </div>
                 </fieldset>
                 <fieldset class="d-flex mt-10 pb-15">
-                    <legend d-flex>Контактная информация</legend>
+                    <legend>Контактная информация</legend>
                     <div class="form-box-2 d-flex">
                         <div class="contacts d-flex"><p>Имя:</p><input type="text"></div> 
                         <div class="contacts d-flex"><p>Телефон:</p><input type="text"></div> 
@@ -99,7 +103,6 @@
                 </form>
                  <button>Отправить</button>
             </div>
-        </div>
      </main>
      <footer class="d-flex">
          <div class="column d-flex">
