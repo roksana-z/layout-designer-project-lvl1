@@ -10,59 +10,59 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-     <header class="d-flex header-panel">
-         <div class="ai-center d-flex h-60 ml-10">
+     <header class="d-flex header-panel fd-r ai-c jc-sb w-100">
+         <div class="ai-c d-flex h-60 ml-10">
              <img src="/images/logo.svg" alt="logo" class="h-60 logo">
              <span>Лунное море</span>
          </div>
-         <div class="nav-wrap h-60">
-                 <p class="nav-item"><a href="#link-for-advantages">Преимущества</a></p>
-                 <p class="nav-item"><a href="#link-for-description"> О ЖК</a></p>
-                 <p class="nav-item"><a href="#link-for-places-for-rest">Места для отдыха</a></p>
+         <div class="ls-no h-60 fd-r d-flex ai-c">
+                 <p class="p-15-20"><a href="#link-for-advantages">Преимущества</a></p>
+                 <p class="p-15-20"><a href="#link-for-description"> О ЖК</a></p>
+                 <p class="p-15-20"><a href="#link-for-places-for-rest">Места для отдыха</a></p>
          </div>
      </header>
      <main>
-        <div class="book-container-1 d-flex">
-            <img src="/images/logo.svg" alt="logo">
-            <h1>ЖК &laquo;Лунное море&raquo;</h1>
-            <span>Mесто, откуда не хочется улетать</span>
-            <a href="#form-data" class="d-flex">Забронировать</a>
+        <div class="book-container d-flex ai-c fd-c w-b-font w-100">
+            <img src="/images/logo.svg" alt="logo" class="book-img">
+            <span class="headline">ЖК &laquo;Лунное море&raquo;</span>
+            <span class="mb-30">Mесто, откуда не хочется улетать</span>
+            <a href="#form-data" class="d-flex btn btn-decor-white">Забронировать</a>
         </div>
-        <div class="advantages-container d-flex">
-            <div class="advantages d-flex">
-                <div class="adv-1 mr-20"">
+        <div class="mt-45 d-flex jc-c">
+            <div class="jc-sa d-flex w-1000"> 
+                <div class="mr-20 advantages-box">
                     <span class="big-letters" id="link-for-advantages">Уникальный вид</span>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли
                         наслаждаться метеоритными потоками.</p>
                 </div>
-                <div class="adv-2 mr-20">
+                <div class="mr-20 advantages-box">
                     <span class="big-letters">Инфраструктура</span>
                     <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка
                          находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
-                <div class="adv-3">
+                <div class="advantages-box">
                     <span class="big-letters">Близость к Москве</span>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
                          России.</p>
                  </div>
             </div>
         </div>
-            <div class="grey-background d-flex">
-                <div class="d-flex about">
-                    <div class="content">
+            <div class="grey-background  jc-c d-flex">
+                <div class="d-flex w-1000 m-40 jc-sa">
+                    <div class="box-content">
                         <span class="big-letters" id="link-for-description">О ЖК «Лунное море»</span>
                         <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь
                          с мегаполисом не теряется – современные скоростные трассы позволяют без труда 
                          добираться до столицы и обратно.</p>
                          <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
                     </div>
-                    <img src="/images/moon-1.jpg" alt="moon-1">
+                    <img src="/images/moon-1.jpg" alt="moon-1" class="h-220">
                 </div>
             </div>
-            <div class="places-for-rest-container d-flex">
-            <div class="d-flex  about">
-                <img src="/images/moon-2.jpg" alt="moon-2">
-                <div class="content">
+            <div class="jc-c d-flex">
+            <div class="d-flex w-1000 m-40 jc-sa">
+                <img src="/images/moon-2.jpg" alt="moon-2" class="h-220">
+                <div class="box-content">
                     <span class="big-letters" id="link-for-places-for-rest">Места для отдыха</span>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем
                          распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров 
@@ -71,14 +71,14 @@
                 </div>
             </div>
         </div>
-            <div class="form grey-background d-flex">
-                <span class="big-letters" id="form-data">Оставьте заявку сегодня!</span>
+            <div class="form-font grey-background jc-c d-flex ai-c fd-c">
+                <span class="big-letters mt-mb-30" id="form-data">Оставьте заявку сегодня!</span>
                 <form action="#">
                 <fieldset class="d-flex">
-                    <legend>Параметры квартиры</legend>
+                    <legend class="ml-15 legend-decor">Параметры квартиры</legend>
                     <div class="form-box-1 d-flex">
                     <p>Колличество комнат:</p>
-                    <select name="number-of-rooms" id="rooms">
+                    <select name="number-of-rooms" class="fields-decor fields-str" id="rooms">
                         <option value="1">1</option>
                         <option value="2">2</option> 
                         <option value="3">3</option>
@@ -86,43 +86,43 @@
                    </div>
                    <div class="form-box-1 d-flex pb-15">
                      <p>Отделка:</p>
-                     <select name="decoration" id="decor">
+                     <select name="decoration" id="decor" class="fields-decor fields-str">
                          <option value="Yes">C отделкой</option>
                          <option value="No">Без отделки</option>
                     </select>
                     </div>
                 </fieldset>
                 <fieldset class="d-flex mt-10 pb-15">
-                    <legend>Контактная информация</legend>
-                    <div class="form-box-2 d-flex">
-                        <div class="contacts d-flex"><p>Имя:</p><input type="text"></div> 
-                        <div class="contacts d-flex"><p>Телефон:</p><input type="text"></div> 
-                        <div class="contacts d-flex"><p>E-mail:</p><input type="text"></div> 
+                    <legend class="ml-15 legend-decor">Контактная информация</legend>
+                    <div class="form-box-2 mt-10 d-flex jc-sb fd-c">
+                        <div class="input-structure jc-sb d-flex"><p>Имя:</p><input type="text" class="fields-decor "></div> 
+                        <div class="input-structure jc-sb d-flex"><p>Телефон:</p><input type="text" class="fields-decor"></div> 
+                        <div class="input-structure jc-sb d-flex"><p>E-mail:</p><input type="text" class="fields-decor"></div> 
                     </div>
                 </fieldset>
                 </form>
-                 <button>Отправить</button>
+                 <button class="btn btn-decor-blue btn-form-str">Отправить</button>
             </div>
      </main>
-     <footer class="d-flex">
-         <div class="column d-flex">
-            <div class="ai-center d-flex">
+     <footer class="d-flex fd-r w-b-font fs-12 w-100 jc-sa bc-303646">
+         <div class="footer-column d-flex">
+            <div class="ai-c d-flex">
             <img src="/images/logo.svg" alt="logo" class="h-60 logo">
              <span>Лунное море</span></div>
-             <span class="symbol">&copy;2032</span>
+             <span class="fs-10">&copy;2032</span>
          </div>
-         <div class="column d-flex">
+         <div class="footer-column d-flex">
              <h3>Проектная документация</h3>
-              <ul class="mt-ml d-flex">
-                  <li><a href="#">Скачать</a></li>
-                  <li><a href="#">Посмотреть на сайте</a></li>
+              <ul class="column-content d-flex">
+                  <li><a href="#" class="cl-w">Скачать</a></li>
+                  <li><a href="#" class="cl-w"> Посмотреть на сайте</a></li>
               </ul>
          </div>
-         <div class="column d-flex">
+         <div class="footer-column d-flex">
               <h3>О застройщике</h3>
-              <ul class="mt-ml d-flex">
-                  <li><a href="#">Отзывы</a></li>
-                  <li><a href="#">Сайт компании</a></li>
+              <ul class="column-content d-flex">
+                  <li><a href="#" class="cl-w"> Отзывы</a></li>
+                  <li><a href="#" class="cl-w"> Сайт компании</a></li>
               </ul>
          </div>
      </footer>
