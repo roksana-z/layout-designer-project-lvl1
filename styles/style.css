@@ -1,6 +1,14 @@
+:root {
+--logo-padding: 60px;
+}
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  padding-top: var(--logo-padding);
 }
 
 .d-flex {
@@ -8,18 +16,18 @@
 }
 
 .h-60 {
-    height: 60px;
+    height: var(--logo-padding);
 }
 
 .mt-10 {
     margin-top: 10px;
 }
 
-.ml-10 {
-    margin-left: 10px;
+.pl-10 {
+    padding-left: 10px;
 }
 
-.pb-15 {
+.pb-20 {
     padding-bottom: 20px;
 }
 
@@ -38,7 +46,7 @@
     margin-bottom: 30px;
 }
 
-.ai-c {
+.align-items-center {
     align-items: center;
 }
 
@@ -69,27 +77,27 @@ a:hover {
     color: grey;
 }
 
-.cl-w {
+.color-white {
     color: white;
 }
 
-.fd-r {
+.flex-direction-row {
     flex-direction: row;
 }
 
-.fd-c {
+.flex-direction-column {
     flex-direction: column;
 }
 
-.jc-sb {
+.justify-content-space-between {
     justify-content: space-between;
 }
 
-.jc-c {
+.justify-content-center {
     justify-content: center;
 }
 
-.jc-sa {
+.justify-content-space-around {
     justify-content: space-around;
 }
 
@@ -105,22 +113,21 @@ a:hover {
     width: 30px;
 }
 
-.ls-no {
+.list-style-none{
     list-style: none;
 }
 
-.p-15-20 {
-    padding: 15px 20px;
+.pr-20 {
+    padding-right: 20px;
 }
 
 .book-container {
-    margin-top: 60px;
     background-image: url(/images/banner.png);
     background-size: 100%;
     background-position: center;
 }
 
-.w-b-font {
+.white-bold-font {
     color: white;
     font-weight: bold;
 }
@@ -145,7 +152,6 @@ a:hover {
     width: 140px;
     font-weight: bold;
     height: 40px; 
-    margin-bottom: 20px;
 }
 
 .btn-decor-white {
@@ -167,7 +173,6 @@ a:hover {
 .advantages-box {
     width: 300px;
     line-height: 1.7;
-    margin-bottom: 45px;
 }
 
 .grey-background {
@@ -175,8 +180,9 @@ a:hover {
     background-color: #f7f7f7;
 }
 
-.m-40 {
-    margin: 40px;
+.p-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
 } 
 
 .box-content {
@@ -213,16 +219,25 @@ fieldset {
     font-weight: bold;
 }
 
+.pt-15 {
+    padding-top: 15px;
+}
+
 .form-box-1 {
     padding-top: 15px;
     padding-left: 15px;
-    padding-right: 25px;
+    padding-right: 35px;
     justify-content: space-between;
 }
 
-.fields-str {
+.form-box-2 {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fields-structure {
     width: 120px;
-    margin-right: 25px;
     height: 25px;
 }
 
@@ -232,17 +247,8 @@ fieldset {
     border: 1px solid #e4e4e4;
 }
 
-.input-structure {
+.h-25 {
     height: 25px;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.btn-form-str {
-    margin-top: 10px;
-    margin-right: 260px;
-    margin-bottom: 55px;
 }
 
 .btn-decor-blue {
@@ -262,13 +268,12 @@ fieldset {
     background-color: #303646;
 }
 
-.footer-column {
-    flex-direction: column;
-    margin-bottom: 55px;
-    margin-top: 55px;
+.pt-pb-55 {
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
-.column-content {
+.footer-str-content {
     flex-direction: column;
     margin-left: 40px;
     margin-top: 15px;
