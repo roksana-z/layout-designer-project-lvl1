@@ -1,5 +1,5 @@
 :root {
---logo-padding: 60px;
+--header-panel-height: 60px;
 }
 
 * {
@@ -8,7 +8,7 @@
 }
 
 body {
-  padding-top: var(--logo-padding);
+  padding-top: var(--header-panel-height);
 }
 
 .d-flex {
@@ -16,7 +16,7 @@ body {
 }
 
 .h-60 {
-    height: var(--logo-padding);
+    height: var(--header-panel-height);
 }
 
 .mt-10 {
@@ -31,7 +31,7 @@ body {
     padding-bottom: 20px;
 }
 
-.big-letters {
+.header-block {
     display: flex;
     margin-bottom: 10px;
     font-size: 24px;
@@ -102,9 +102,12 @@ a:hover {
 }
 
 .header-panel {
+    box-sizing: border-box;
     position: fixed;
     top: 0px;
     left: 0px;
+    width: 100%;
+    height: var(--header-panel-height);
     background-color: white;
 }
 
@@ -115,6 +118,10 @@ a:hover {
 
 .list-style-none{
     list-style: none;
+}
+
+.pr-40 {
+    padding-right: 80px;
 }
 
 .pr-20 {
@@ -152,13 +159,14 @@ a:hover {
     width: 140px;
     font-weight: bold;
     height: 40px; 
+    border-radius: 8px; 
+    border: 2px solid;
 }
 
 .btn-decor-white {
     color: white; 
     background: rgba(0, 0, 0, 0); 
-    border-radius: 8px; 
-    border: 2px solid white;
+    border-color: white;
 }
 
 .btn-decor-white:hover {
@@ -176,7 +184,6 @@ a:hover {
 }
 
 .grey-background {
-    width: 100%;
     background-color: #f7f7f7;
 }
 
@@ -201,7 +208,7 @@ a:hover {
 
 fieldset {
     width: 400px;
-    border: 2px solid #01dfad;
+    border: 2px solid #67efd6;
 }
 
 .ml-15 {
@@ -214,7 +221,7 @@ fieldset {
 }
 
 .legend-decor {
-    color: #01dfad;
+    color: #67efd6;
     font-size: 20px;
     font-weight: bold;
 }
@@ -251,20 +258,19 @@ fieldset {
     height: 25px;
 }
 
-.btn-decor-blue {
-    color: #01dfad;
+.btn-decor-aquamarine {
+    color: #67efd6;
     background: rgba(0, 0, 0, 0); 
-    border-radius: 8px; 
-    border: 1px solid #01dfad; 
+    border-color: #67efd6; 
 }
 
-.btn-decor-blue:hover {
-    background-color: #01dfad;
+.btn-decor-aquamarine:hover {
+    background-color: #67efd6;
     color: white;
     cursor: pointer;
 }
 
-.bc-303646 {
+.dark-background {
     background-color: #303646;
 }
 
