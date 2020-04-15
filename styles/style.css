@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    line-height: 1.7;
 }
 
 body {
@@ -154,6 +155,7 @@ a:hover {
 }
 
 .btn {
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 140px;
@@ -178,9 +180,14 @@ a:hover {
     width: 1000px;
 }
 
-.advantages-box {
+.w-300 {
     width: 300px;
-    line-height: 1.7;
+}
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .grey-background {
