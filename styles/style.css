@@ -5,11 +5,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    line-height: 1.7;
 }
 
 body {
   padding-top: var(--header-panel-height);
+  line-height: 1.7;
 }
 
 .d-flex {
